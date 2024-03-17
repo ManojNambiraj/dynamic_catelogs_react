@@ -1,0 +1,85 @@
+.wishlistBar_headline {
+  width: 100%;
+  height: 70px;
+  margin: 3% 0%;
+  background-color: #f7f7ed;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.wishlist_heading {
+  width: 85%;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.wishlist_cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.wish_card {
+  width: 85%;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #e6ecec;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.wishlist_cards_content {
+  width: 88%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wish_card_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+
+.wish_card_left > i {
+  font-size: 2em;
+}
+
+.wish_img_box {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.wish_img_box > img {
+  width: 100%;
+  height: 100%;
+}
+
+.wish_product_name {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.wish_card_right > button {
+  background-color: transparent;
+  padding: 25px 30px;
+  border-radius: 50%;
+  font-size: large;
+}
+
+.wish_card_right > button:hover {
+  cursor: pointer;
+}

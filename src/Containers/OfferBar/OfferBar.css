@@ -1,0 +1,53 @@
+.offerBar_container{
+    background-color: #fafafa;
+    height: 100px;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.offerBar_content{
+    width: 65%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PikeupDiv,
+.appoinmentDiv{
+    opacity: .4;
+}
+
+.appoinmentDiv > i,
+.emiDiv > i,
+.PikeupDiv > i{
+    margin-top: 3px;
+    font-size: 1.3em;
+}
+
+.appoinmentDiv,
+.emiDiv,
+.PikeupDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.03em;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .offerBar_container{
+        height: 65px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .offerBar_container{
+        display: none;
+    }
+}

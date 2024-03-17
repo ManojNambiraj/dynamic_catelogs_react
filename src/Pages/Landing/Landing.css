@@ -1,0 +1,17 @@
+.banner_section{
+    margin-top: 1%;
+}
+
+.navbarBottom_section{
+    margin-top: 1%;
+}
+
+.bestSellers_caurosal{
+    margin-top: 2%;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .banner_section {
+        margin-top: 0.5%;
+    }  
+}

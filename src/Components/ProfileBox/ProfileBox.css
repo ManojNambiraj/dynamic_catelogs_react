@@ -1,0 +1,63 @@
+.ProfileBox_container {
+  position: absolute;
+  top: 67px;
+  right: -11px;
+  border-radius: 20px;
+  padding: 20px;
+
+  background-color: white;
+  width: 200px;
+
+  height: 150px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ProfileBox_headline {
+  font-size: 1.1em;
+}
+
+.sub_headline {
+  font-size: small;
+  opacity: 0.5;
+}
+
+.profileBox_buttons {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profileBox_buttons button {
+  padding: 8px 15px;
+  background-color: white;
+  border: 1px solid grey;
+  text-decoration: none;
+}
+
+.profileBox_buttons button:hover {
+  background-color: rgb(247, 244, 244);
+  cursor: pointer;
+}
+
+.ProfileBox_container > .hrLine {
+  opacity: 0.4;
+  width: inherit;
+  height: 1px;
+  background-color: black;
+}
+
+.ProfileBoxList {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+.ProfileBoxList > li:hover {
+  cursor: pointer;
+}

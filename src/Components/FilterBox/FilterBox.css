@@ -1,0 +1,61 @@
+.filter_top_section {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+
+  background-color: #f7f7ed;
+  overflow: hidden;
+  font-size: 1em;
+}
+
+.filter_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter_clear {
+  font-size: 0.9em;
+  text-decoration: underline;
+}
+
+.filter_clear:hover {
+  cursor: pointer;
+}
+
+.filter_content_list {
+  padding: 15px;
+}
+
+.filter_sections {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter_sections_head {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.filter_sections_checkList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.filter_section_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.apply_btn {
+  padding: 5px 20px;
+  border-radius: 10px;
+}

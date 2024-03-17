@@ -1,0 +1,200 @@
+.smallChip {
+  background-position: center;
+  background-size: contain;
+  width: 371px;
+  height: 200px;
+  transition: transform 1.5s;
+  /* border: 1px solid grey ; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.smallChip:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.2);
+  border-radius: 5px;
+}
+.subChipcartsContainer {
+  transition: all 1s ease;
+}
+.smallChipsContainer {
+  padding-top: 30px;
+  gap: 20px;
+  margin-left: 85px;
+}
+.chip-images {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.smallChip.active {
+  opacity: 1;
+}
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 158%;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  position: relative;
+  color: #ffff;
+  position: absolute;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.BestSellers_container {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.BestSellers_content {
+  width: 85%;
+}
+
+.BestSellers_content > h1 {
+  margin: 0;
+  margin-bottom: 3%;
+}
+
+/******************* Media Query BIG SCREENS************************/
+
+@media (min-width: 2561px) and (max-width: 2880px) {
+  .smallChip {
+    background-position: center;
+    background-size: contain;
+    width: 601px;
+    height: 445px;
+    transition: transform 1.5s;
+    /* border: 1px solid grey ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .chip-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+/******************* Media Query BIG SCREENS************************/
+
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .smallChip {
+    background-position: center;
+    background-size: contain;
+    width: 601px;
+    height: 375px;
+    transition: transform 1.5s;
+    /* border: 1px solid grey ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .chip-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+  .smallChip {
+    width: 330px;
+    height: 175px;
+  }
+
+  .smallChipsContainer {
+    width: 95%;
+    margin-left: 40px;
+    padding-top: 2px;
+  }
+  .chip-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .title {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .smallChipsContainer {
+    /* padding-top: 100px; */
+    gap: 10px;
+    margin-left: -20px !important;
+  }
+  .chip-images {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .react-multi-carousel-list {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .chip-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .smallChipsContainer {
+    /* padding-top: 100px; */
+    gap: 10px;
+    margin-left: 0px;
+    margin-top: -175px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .chip-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .smallChipsContainer {
+    width: 92%;
+    padding-top: 0px;
+    gap: 10px;
+    margin-left: 60px;
+  }
+
+  .subChipcartsContainer {
+    width: 100%;
+    width: 100%;
+  }
+
+  .BestSellers_content > h1 {
+    font-size: 1.6em;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1280px) {
+  .react-multi-carousel-list {
+    margin-top: 6%;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1366px) {
+}
+@media (min-width: 1430px) and (max-width: 1440px) {
+  .react-multi-carousel-list {
+    margin-top: 10%;
+  }
+}

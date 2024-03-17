@@ -1,0 +1,83 @@
+.Register_Container{
+    /* width: 100vw; */
+    /* height: 100vh; */
+    padding: 5% 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.register_form_content{
+    width: 100%;
+    height: fit-content;
+    padding: 50px 50px;
+    /* margin-bottom: 50px; */
+    border: 2px solid brown;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.RegisterFormSections{
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 30px;
+}
+
+.RegisterFormSections > form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10%;
+    border-radius: 30px;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.RegisterFormAnimations{
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegisterFormAnimations > img{
+    width: 100%;
+    height: inherit;
+}
+
+.register_header{
+    text-align: center;
+}
+
+.register_btn{
+    text-align: center;
+}
+
+.formErrors{
+    color: red;
+    /* padding-top: 20px;
+    padding-bottom: -20px; */
+}
+
+.BackendError{
+    text-align: center;
+    color: red;
+}
+
+.textFieldBox{
+    color: blue;
+}
